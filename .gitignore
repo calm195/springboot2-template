@@ -1,0 +1,93 @@
+# =========================================================================
+# Spring Boot Build & Output Artifacts
+# =========================================================================
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# =========================================================================
+# Spring Boot Specifics / Sensitive Data
+# =========================================================================
+# Ignore local environment variable files and configurations containing secrets
+.env
+.env.local
+*.properties.local
+*.yml.local
+*.yaml.local
+
+# Spring Tool Suite (STS) / Spring Boot Cache
+.sts4-cache/
+.springBeans
+
+# =========================================================================
+# Build Tools (Maven & Gradle)
+# =========================================================================
+# Gradle temporary files & lock files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Maven specific
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.note
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================================
+# IDEs and Editors
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+*.placeholder
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+*.launch
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+
+# =========================================================================
+# System Files & Logs
+# =========================================================================
+# Log files
+*.log
+logs/
+log/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Crash dumps
+hs_err_pid*
+replay_pid*
+
